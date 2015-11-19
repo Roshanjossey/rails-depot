@@ -11,3 +11,8 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+ruby:
+  title: Programming Ruby
+  description: Cool language with a lot of cool stuff
+  price: 6.28
+  image_url: ruby.png
