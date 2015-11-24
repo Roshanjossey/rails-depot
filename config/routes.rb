@@ -5,7 +5,9 @@ Depot::Application.routes.draw do
   resources :carts
 
   get "store/index"
-  resources :products
+  resources :product do
+    get :who_bought, on: :member
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
